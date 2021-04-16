@@ -1,0 +1,273 @@
+/* --------testimonials------- */
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+}
+.testimonials-col{
+    flex-basis: 45%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background-color: #a8ddeb;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonials-col img{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-top: 47%;
+    border-radius: 50%;
+}
+.testimonials-col p{
+    padding: 0;
+    text-align: left;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.testimonials-col h3{
+    /* margin-top: 38%; */
+    text-align: left;
+    font-size: 12px;
+}
+.testimonials-col .fa{
+    color: #f49236;
+}
+@media (max-width: 700px){
+    .testimonials-col img{
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+/* ------contact us------ */
+.contact #cont h3{
+    color:rgb(255, 255, 255);
+    padding-left: 110px;
+    font-family: 'Lobster', cursive;
+    src: url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+}
+.contact{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #252524;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 15px;
+    padding: 50px 100px;
+    background-size: cover;
+
+}
+.contact h4{
+    margin-left: 10px;
+    margin-top: 2px;
+    
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon2{
+    min-width: 60px;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactInfo .box .text2{
+    display: flex;
+    margin-left: 20px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text2 .h4{
+    font-weight: 500;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: rgb(253, 253, 253);
+}
+.contactForm h4{
+    font-size: 22px;
+    font-weight: 500;;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    color:rgb(136, 134, 134);
+    
+}
+.contactForm .inputBox input,textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-bottom: 2px solid #487375;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 1px;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: #1ee91e;
+    font-size: 11px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 17px;
+}
+.contactForm .inputBox input[type="submit"]:hover,
+.contactForm .inputBox input[type="submit"]:active{
+    background: #1ee91e;
+}
+.footer{
+    text-align: center;
+    margin-top: 40px;
+    background: #252524;
+    margin-top: -10px;
+}
+.footer h3{
+    color: rgb(245, 241, 244);
+}
+.icon a {
+    color: rgb(250, 250, 249);
+    padding-inline: 5px;
+}
+.icon a:hover,
+.icon a:active{
+    color:#04d6fc;
+}
+#Copyright{
+    text-align: center;
+}
+#Copyright p{
+    color: #ffffff;
+    font-weight: 400;
+}
+#Copyright a {
+    text-decoration: none;
+    color:#04d6fc
+}
+@media(max-width: 700px){
+    .contact{
+        padding: 50px;
+
+    }
+    .contact #cont h3{
+        padding-left:0 ;
+    }
+    .contact h4{
+        font-size: 16px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactInfo{
+        margin-bottom: 40px;
+        width: 500px;
+        margin-left: 250px;
+    }
+    .contactForm .inputBox span{
+        font-size: 13px;
+    }
+}
+.resources{
+    background-image: linear-gradient(rgba(7,13,37,0.7),rgba(0,0,0,0.7)),url(https://res-3.cloudinary.com/fieldfisher/image/upload/c_lfill,g_auto/f_auto,q_auto/v1/sectors/technology/tech_neoncircuitboard_857021704_medium_lc5h05); 
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reso{
+    font-family: arial;
+    background: #1ee91e;
+    border: 2px solid #f1f1f1;
+    padding: 15px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+.reso:hover, 
+.reso:active{
+    background: #00bcd4;
+}
+.reso a {
+    text-decoration: none;
+}
+.reso a p{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+}
+.mood{
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    border: 3px solid #f1f1f1;
+    padding: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+   
+}
+@media (max-width: 700px){
+    .reso{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+#loading{
+    position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgb(0, 0, 0)
+	url('https://i.pinimg.com/originals/a7/b0/15/a7b015d343ad801ad6da8c242dc6ae06.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}

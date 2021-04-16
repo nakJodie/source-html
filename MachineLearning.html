@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning and Security</title>
+    <link rel="icon" href="img/dra-tech.png">
+   
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: arial;
+    }
+    #loading{
+    position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgb(0, 0, 0)
+	url('https://i.pinimg.com/originals/a7/b0/15/a7b015d343ad801ad6da8c242dc6ae06.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+    .header{
+        background: rgb(0, 0, 0);
+        position: sticky;
+        top: 0;
+    }
+    .header img{
+        width: 60px;
+        margin: 20px;
+
+    }
+    h1{
+        margin-top: 70px;
+        text-align: center;
+    }
+    .artical img{
+        margin-top: 50px;
+        margin-left: 270px;
+        
+    }
+    @media(max-width:700px){
+        .artical img{
+            width: 50%;
+            margin-left: 25%;
+        }
+    }
+    p{
+        padding: 100px 200px 200px;
+        text-align: justify;
+        font-weight: 200;
+        color: rgb(63, 59, 59);
+    }
+    .back {
+        text-align: right;
+        position: sticky;
+        top:39px; 
+        margin-right: 50px;
+        margin-top: -60px;
+    }
+    .back a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+</style>
+<body onload="myFunction()">
+    <div id="loading"></div>
+    <div class="header">
+        <img src="img/mis-dra.png">
+        
+    </div>
+    <div class="back">
+        <a href="index2.html" >Back</a>
+    </div>
+    <div class="artical">
+        <h1>Machine Learning and Security</h1>
+        <img src="https://www.securityroundtable.org/wp-content/uploads/2019/06/machine-learning-840x485.png">
+        <p>By Justin S.<br><br>
+
+            Is machine language going to be the future of cyber security or is it just a pipe dream? Many people in the technology community have their own opinions referring to this statement. According to Simon Crosby, CTO at Bromium, argues that “There is no silver bullet in security”. He states that in cyber security you are going up against people that for the most part were taught to learn security for good. Some people with devious minds however learn how to alter the minds of machine language for the bad. Crosby makes a good point because most black hat hackers can learn how to alter machine language so having machine language as an ally in the security field could be more of a con than a pro. Others believe that machine language can and will eventually be the future of security. According to Mike Paquette, VP of products at Prelert, says that “machine learning is cyber security’s answer to detecting advanced breaches, and it will shine in security IT environments as they grow increasingly complex”. Both have very valid arguments and it could be both a pipedream or potentially be the answer we have all been waiting for.
+            <br><br>
+            Machine learning is very dynamic in the fact that it can learn and interpret patterns and repetition. But with security there is almost zero to non repetition and that’s why hackers are so successful. So there would need to be some form of machine language software to actively be learning and watching. This is something called BBAC or Behavior-Based Access Control that will allow security to be actively used in a security approach. According to “crosstalk: The Journal of Defense Software Engineering”, the development “and validation of advanced cyber security technology frequently relies on data capturing normal and suspicious activities at various system layers”. The more we learn from machine language and AI the more we can learn to prevent attacks before they even happen.
+            <br><br>
+            Another reason we should be leaning towards Machine language is the fact that the demand for security professionals is so high and those jobs are increasingly difficult to fill. According to cybersecurity-review.com, “there is a lack of qualified, experienced individuals to successfully defend vital infrastructure and systems”. With hackers always working 24/7, everyone working a 9 to 5 aren’t going to be able to keep up. The demand for these professionals is going to increasingly grow and there are always going to be challenges. We do already have machine language implemented in certain software from companies like Palo Alto Networks and CyberArk, but the growth for machine language to stay above the trend is going to need to be improved.
+            <br><br>
+            In conclusion, I believe that machine language is going to need to be improved but so are the personnel in the security profession. With the higher demand in security we are going to need as many people filling those jobs as we can. As more and more people enter the profession we are going to be able to learn more as well as implement machine learning. Machine learning will never take over humans, at least for a long time but instead we should be able to use them both together to try and stop all of these cyber attacks. There are already companies and business that are combining machine learning with humans. A company called F-Secure from Finland, is attempting to “reduce the time it takes to detect and respond to cyber attacks down to 30 minutes with Rapid Detection Service”(Techcrunch.com). I don’t believe that there is no silver bullet to cyber security but instead humans and computers should be able to find a way to work together so they can both learn from each other</p>
+    </div>
+    <script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+</body>
+</html>

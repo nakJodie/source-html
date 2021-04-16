@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1><font color="Blue"> Please fill the form below:</font></h1>
+    <form>
+        Enter Your Name: <input type="text" name="fullname" value =" " size="25" maxlength="100" /><br/>
+        Decription your favourite:<br/> <textarea name="textfeedback" rows="20" cols="50">Enter your feedback here: </textarea><br/>
+        Password: <input type="password" name="pwd" /><br/>
+        What do you do on your free time? <br/>
+        <input type="checkbox" name="free" value = "Music" /> Listen to music <br/>
+        <input type="checkbox" name="free" value = "Sport" /> Play sports<br/>
+        <input type="checkbox" name="free" value = "Books" /> read the books<br/>
+        Gender:<br/>
+        <input type="radio" name="sex" value="male" />Male<br/>
+        <input type="radio" name="sex" value="female" />Female<br/>
+        Choose your favourite color: <select name="selColor">
+            <option selected ="selected" value="">Select color</option>
+            <option value ="red">Red</option>
+            <option value ="green">Green</option>
+            <option value ="Blue">Blue</option>
+        <br/>
+        </select><br/><br/>
+        
+        <select name="selday" size="4">
+        <option value="Mon">Monday</option>
+        <option value="Tue">Tuesday</option>
+        <option value="Wed">Wednesday</option>
+        <option value="Thu">Thursday</option>
+        <option value="Fri">Friday</option>
+        <option value="Sat">Saturday</option>
+        <option value="Sun">Sunday</option>
+        </select></br>
+        <input type ="submit" value="Submit" style="height: 30px;; width:100px;" />
+    </form>
+</body>
+</html>

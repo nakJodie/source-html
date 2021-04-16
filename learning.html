@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning in the Travel Industry</title>
+    <link rel="icon" href="img/dra-tech.png">
+   
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #loading{
+    position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgb(0, 0, 0)
+	url('https://i.pinimg.com/originals/a7/b0/15/a7b015d343ad801ad6da8c242dc6ae06.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+    body{
+        font-family: arial;
+    }
+    .header{
+        background: rgb(0, 0, 0);
+        position: sticky;
+        top: 0;
+    }
+    .header img{
+        width: 60px;
+        margin: 20px;
+
+    }
+    h1{
+        margin-top: 70px;
+        text-align: center;
+    }
+    .artical img{
+        margin-top: 50px;
+        margin-left: 150px;
+        
+    }
+    @media(max-width:700px){
+        .artical img{
+            width: 50%;
+            margin-left: 25%;
+        }
+    }
+    p{
+        padding: 100px 200px 200px;
+        text-align: justify;
+        font-weight: 200;
+        color: rgb(63, 59, 59);
+    }
+    .back {
+        text-align: right;
+        position: sticky;
+        top:39px; 
+        margin-right: 50px;
+        margin-top: -60px;
+    }
+    .back a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+</style>
+<body onload="myFunction()">
+    <div id="loading"></div>
+    <div class="header">
+        <img src="img/mis-dra.png">
+        
+    </div>
+    <div class="back">
+        <a href="index2.html" >Back</a>
+    </div>
+    <div class="artical">
+        <h1>Machine Learning in the Travel Industry</h1>
+        <img src="https://hackernoon.com/hn-images/0*u-dXi-iR07dJpPnL">
+        <p>By Binyong X.<br><br>
+
+            The travel industry has changed in many ways due to the evolution of machine learning. It also made a great impact on how people decided on their trip plan such as when and where to buy tickets. Machine learning is the subfield of computer science that gives computers the ability to learn without being explicitly programmed (Samuel). There’re generally three types of machine learning: supervised, unsupervised and reinforcement. Supervised learning is where the algorithm generates a function that maps inputs to desired outputs. Unsupervised learning is which models a set of inputs where the labeled examples aren’t available. Reinforcement learning is where the algorithm learns a policy of how to act given an observation of the world (Ayodele).
+            <br><br>
+            There’re some advantages of how machine learnings are being used to help the Travel Industry. Examples including Recommendation engines, dynamic pricing and fare forecasting, intelligent travel assistants, and customer support improvement (AltexSoft).
+            <br><br>
+            Do you ever have trouble deciding which hotels you’re going to stay for your trip? Recommendation engine is a powerful feature/tool from machine learning that could make your life much easier. For example, Expedia would generate a list of hotel recommendations based on the trending search and the user’s preferences. When you’re using the Expedia app or webpage, dozens of hotels would pop up and waiting for you to choose base on your filter search and booking history. Recommendation engine has become a popular feature/tool to both the businesses and consumers for many years.
+            <br><br>
+            Amadeus, one of the leading global distribution systems (GDS), has introduced Schedule Recovery system, aiming to help airlines mitigate the risks of travel disruption. A data science-powered recommendation engine, the tool helps airlines instantly address and efficiently handle any threats and disruptions in their operations. Australia’s largest airline Qantas has been using Amadeus’ schedule recovery system to reduce manual intervention and optimize the operations for better efficiency (Fox). It helps reduce the number of and length of delays for Qantas according to the company’s head of operation Paul Fraser.
+            <br><br>
+            Dynamic pricing and fare forecasting are another powerful tool for people to purchase flight tickets. For example, Fareboom.com has created a self-learning algorithms that can predict the future price movements based on several factors, such as seasonal trends, demand growth, airlines special offers and deals. People can easily look for the ideal ticket price, date and travel agency for themselves.
+            <br><br>
+            As the rise of smartphone apps in the recent years, people have been using their mobile apps to book the flight, hotel or rental car for their trip. Kayak’s travel assistant on Facebook Messenger is an intelligent travel assistant that people can message with the Kayak chatbot to search, plan, book and manage their travel. We can chat with the chatbot due to its heavily automated by machine learning algorithms.
+            <br><br>
+            Lastly, machine learning could help the travel agency improve customer service. Based on the experiment conducted by Qantas to test the efficiency of their travel disruption system, what takes an experienced professional about 15-20 minutes can be done by an algorithm in under one minute. It would be much more efficient for both the businesses and customers when a machine could solve a minor disruption for them.
+            <br><br>
+            Although machine learning is beneficial in the travel industry, business may face some challenges in attempt to adopt it. Business need to overcome inaccessible data and sensitive data security when implementing machine learning in their database. There’re infrastructure requirement for testing and experiment that can only adapted accordingly by the business. Affordability can also be a concern for the business since implementation of machine learning come at a cost.
+            <br><br>
+            In conclusion, machine learning has played an important role in today’s travel industry. Many business in the travel industry has adopt the new technology of machine learning such as the recommendation engine. The ongoing development of machine learning is changing the way we travel. Let’s see how machine learning would shape our travel experience in the future.</p>
+    </div>
+    <script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+</body>
+</html>

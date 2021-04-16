@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototyping for Application</title>
+    <link rel="icon" href="img/dra-tech.png">
+   
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: arial;
+    }
+    .header{
+        background: rgb(0, 0, 0);
+        position: sticky;
+        top: 0;
+    }
+    .header img{
+        width: 60px;
+        margin: 20px;
+
+    }
+    h1{
+        margin-top: 70px;
+        text-align: center;
+    }
+    #loading{
+    position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgb(0, 0, 0)
+	url('https://i.pinimg.com/originals/a7/b0/15/a7b015d343ad801ad6da8c242dc6ae06.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+    .artical img{
+        margin-top: 50px;
+        margin-left: 270px;
+        
+    }
+    @media(max-width:700px){
+        .artical img{
+            width: 50%;
+            margin-left: 25%;
+        }
+    }
+    p{
+        padding: 100px 200px 200px;
+        text-align: justify;
+        font-weight: 200;
+        color: rgb(63, 59, 59);
+    }
+    .back {
+        text-align: right;
+        position: sticky;
+        top:39px; 
+        margin-right: 50px;
+        margin-top: -60px;
+    }
+    .back a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+</style>
+<body onload="myFunction()">
+    <div id="loading"></div>
+    <div class="header">
+        <img src="img/mis-dra.png">
+        
+    </div>
+    <div class="back">
+        <a href="index2.html" >Back</a>
+    </div>
+    <div class="artical">
+        <h1>Prototyping for Applications</h1>
+        <img src="http://misclassblog.com/wp-content/themes/colormag/img/slider-featured-image-17.png">
+        <p>By Ishmene A.C.<br><br>
+
+            Prototyping is used by many different types of organizations when developing a product and can be beneficial in creating a final product for a user with specific requirements. “Prototype-based methodologies repeatedly performs the phases of analysis, design, and implementation in a cycle until the final system is completed (Dennis, 2015)”. Prototypes are a model, or rough draft, of the big goal of a product. It is a way for users to get a sense of what the product or system will do. When creating a product, there are many different companies that utilize prototyping because it can provide many advantages.<br><br>
+            
+            To begin prototyping, the initial requirements of the system must first be identified. This is the step in which it is decided what the software will be able to do (Stanley). It is also identified who the users of the system will likely be and what the users will want from the product. In the second step, the software developers will consider the requirements of the system and begin to put together a model of what the finished product might look like. Some initial prototypes may be as simple as a drawing on a whiteboard or even may consist of sticky notes on a wall (Stanley).<br><br>
+            
+            The work begins with a system prototype. This is a rough draft of the program and only provides a small amount of the features that will be in the final product. This will mainly show a few of the key features. The steps that are typically taken when developing a software prototype are storyboarding, wire framing and functional prototypes (Dougherty, 2013). In storyboarding, it is a quick and easy way to demonstrate the user experience because one can show the application idea for each type of user. One can just sketch out the key screens of the software or application and define the key features. Since software inevitably involves a user interface, one of the benefits of storyboarding is it “allows us to situate these UIs in the real-world contexts in which they’ll be encountered.” (Little, 2013) Storyboarding is mainly useful since it is much easier and more effective to draw pictures of the user interface rather than verbally describing it. After storyboarding the ideas comes wire framing, which is another sketch that is in a little more detailed. A wireframe of the software will showcase key screen elements to illustrate the look-and-feel of the application. The wireframe is “the backbone of your design” (Treder, 2016). There are many free applications online that can be used to create common user interface mockups and these can be used as wireframes to demonstrate what the software should be able to do. Since wireframes are quick and simple to be made, they can be used to describe and explain to developers how it is to be done when they are unclear with what to do. After creating wireframe of the software, developers can then start working on a functional prototype. This prototype can be used to present to users and project sponsors to show how users can interact with the different features of the software.<br><br>
+            
+            The first system prototype is usually the first part of the system that is used. This prototype is then presented to the users who provide comments and give their feedback about the system. These comments are used to redesign a second prototype, which will showcase a more features. This process of prototyping and receiving feedback continues in a cycle until the analysts, users, and sponsor agree and are satisfied with the functionality of the prototype. Afterwards, the prototype will be installed and then used in the organization. Even after the installation of the prototype, there may be a few issues that come up and will require more refinement until it is fully accepted as the new system (Dennis, 2015).<br><br>
+            
+            Many different companies such as Snapchat and Instagram utilize prototyping when brainstorming and planning a product. For example, there is a recent prototype created for Snapchat that will let users “reply to stories or received snaps using two pre-selected emoji, with a single swipe.” (Parrott, 2016) A developer had an idea to create this feature for Snapchat so he made a prototype to demonstrate his idea. His prototype did not have any backend code to it, it was simply and GIF file that showed the moving emoji reaction that he wanted to create with this feature. The developer added, “swiping straight upwards would still bring up the keyboard, but veering left or right would select one of two emoji, which would be “sent” when the finger was lifted. There’d be a settings screen so users could pick their favorite emoji, adding a dash of personalization.” (Parrott, 2016) Another developer also created a prototype for Instagram, which tested the functionality of a sticky icon for deleting comments instead of swiping left. He first identified the type of users that use Instagram to “help [him] get into the mindset of the users, thinking in terms of their contexts, needs, and goals.” (CanvasFlip, 2016) Unlike the Snapchat prototype, this developer actually created a simple prototype that he sent to about 40 people via email to test. Half of the users were given a prototype with the swipe-to-delete function and the other half was given the sticky delete icon. In the email, he specified a task to the users to find their comment on a photo on Instagram and delete it ASAP. The developer created a heat map where he noticed that many of the users were having trouble finding the delete button. The users were clicking everywhere around the screen to find the navigation to delete. He then concluded and saw from the usability test that 0 users with the sticky delete icon dropped off of the comment section while 16 users with the swipe-to-delete function dropped off.<br><br>
+            
+            One of the key advantages to prototyping is that it quickly provides the users with a system with which they can interact with even if it is not ready to be implemented into the whole organization. Prototyping also reassures the users that the project team is working on the system and there is a product on the way. Before beginning the prototyping process, developers are given requirements by the user and this can help developers more quickly create a product catered to the needs of the user. (Dennis, 2015) It gives the developer “the opportunity to evaluate the product, ensure it’s doing what’s intended, and determine if improvements need to be made.” (Stanley)
+            While prototyping has its benefits, it also has some limitations. One of the major problems is that when working with fast-paced system releases, it causes a challenge when attempting to conduct careful, methodical analysis. Prototypes also undergo significant changes, especially after receiving feedback from users, that the initial design decisions become poor ones. This can cause problems in the development of complex systems because fundamental issues and problems are not recognized until the development process.<br><br>
+            
+            In conclusion, prototyping for mobile applications is very effective especially before launching the final product to the public domain. As demonstrated from the prototypes created for Snapchat and Instagram, prototypes are a rough draft or model of what the final product will do. It gives the users an idea of what the application will do and this also allows for users to give their feedback. After many prototypes and feedback from users, developers can redesign the product and reanalyze their ideas in order to publish the best working model of the product that they can.</p>
+    </div>
+    <script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+</body>
+</html>

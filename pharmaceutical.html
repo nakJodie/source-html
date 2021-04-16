@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Mining in Pharmaceutical Research & Development</title>
+    <link rel="icon" href="img/dra-tech.png">
+   
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: arial;
+    }
+    .header{
+        background: rgb(0, 0, 0);
+        position: sticky;
+        top: 0;
+    }
+    #loading{
+    position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgb(0, 0, 0)
+	url('https://i.pinimg.com/originals/a7/b0/15/a7b015d343ad801ad6da8c242dc6ae06.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+    .header img{
+        width: 60px;
+        margin: 20px;
+
+    }
+    h1{
+        margin-top: 70px;
+        text-align: center;
+    }
+    .artical img{
+        margin-top: 50px;
+        margin-left: 500px;
+        
+    }
+    @media(max-width:700px){
+        .artical img{
+            width: 50%;
+            margin-left: 25%;
+        }
+    }
+    p{
+        padding: 100px 200px 200px;
+        text-align: justify;
+        font-weight: 200;
+        color: rgb(63, 59, 59);
+    }
+    .back {
+        text-align: right;
+        position: sticky;
+        top:39px; 
+        margin-right: 50px;
+        margin-top: -60px;
+    }
+    .back a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+</style>
+<body onload="myFunction()">
+    <div id="loading"></div>
+    <div class="header">
+        <img src="img/mis-dra.png">
+        
+    </div>
+    <div class="back">
+        <a href="index2.html" >Back</a>
+    </div>
+    <div class="artical">
+        <h1>Data Mining in Pharmaceutical Research & Development</h1>
+        <img src="https://www.imedpub.com/admin/flyers/journal-of-informatics-and-data-mining-flyer.jpg">
+        <p>By Ryan T.<br><br>
+
+            The pharmaceutical industry has always relied heavily on data. That data consists of historical clinical trial results, cellular, genetic, microbial, molecular, proteomic, and metabolic data. With most, if not all, of this data being stored electronically and so much to sift through data mining has been highly advantageous in pharmaceutical research and development (Elvridge, 2016). Several proprietary and nonproprietary tools are available to researchers each with their own distinct differences. The pharmaceutical companies utilizing big data ranges from large companies to small firms since data mining effectively reduces the barrier of entry. This goes without saying, but big data mining does comes with risks and limitations when it comes to the pharmaceutical industry. Overall, the benefits far outweigh the risks though as developers and researchers continue improving their products.
+            <br><br>
+            The use of data mining in pharmaceuticals is primarily focused on “the intended purpose of making better decisions faster in the area of drug identification and optimization” (Kaur & Bhardwaj, 2014). Using the vast amount of data researchers can generate related chemical compound targets that fit their constraints which will then be tested for efficacy. One such program that is used for this purpose is ChEMBL. Proprietary software company, MedChemica, allows the sharing of data between different companies, which allows for collaboration “while maintaining the security of each individual partner’s intellectual property” (Elvridge, 2016). “The beauty of the collaboration is that the data is extracted and analyzed in such a way that we share the rules but not the structures of the molecules” (Boehm, 2016). NuMedii is startup company whose proprietary tech allows for predicting of drug efficacy before the clinical trials process even starts, by mining “disease, pharmacological, and clinical data using network-based algorithms” (Elvridge,2016). In essence, this data mining process is not searching for the molecule at all, but is the next step after find a target molecule, assessing risk and cutting cost where clinical trials would fail.
+            <br><br>
+            At the present, all pharmaceutical companies should be utilizing data mining. Pfizer, one of the most well know pharma corporations behind drugs like fluconazole, Viagra, Zoloft, and Xanax, among a multitude of other drugs uses Insightful Miner for their data mining purposes. Insightful Miner, is a user friendly software that uses “icons representing analysis steps that can be dropped and dragged onto a workflow pallet” (Salamone, 2006). The aforementioned collaborative data mining tool MedChemica has many pharmaceutical companies using its services such as AstraZeneca, Roche, and Genentech (Elvridge, 2016).
+            <br><br>
+            Like many good things data mining within this context has its challenges and limitations. Common with data mining applications data consistency is usually an issue. With data coming from so many sources, different countries, and different trial methods the data usually must be normalized. This issue also extends to causing scalability issues because although thousands of data sets can be manually fixed by humans, in the context of pharmaceutical research we are talking in the millions. Another potential risk and challenge somewhat exclusive to this context is data security because of patient privacy laws like HIPPA. The solution to this issue posed by Akhtari (2016) is to “remove identifiers to protect privacy and store data in a private cloud to ensure it is secure.”
+            <br><br>
+            In conclusion, we see that the pharmaceutical research landscape has been revolutionized by data mining. Researchers are now able to find target molecules, collaborate and share data without losing intellectual property rights, and do risk assessment on their findings all with the help of data mining. The efficiency of the research and development process has improved by far and looking into the future the process may change all together as data driven research ultimately trumps experimentation.</p>
+    </div>
+    <script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+</body>
+</html>

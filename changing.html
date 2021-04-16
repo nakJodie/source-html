@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing The Way We See Machine Learning In The Field Of Telecommunication</title>
+    <link rel="icon" href="img/dra-tech.png">
+   
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #loading{
+    position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgb(0, 0, 0)
+	url('https://i.pinimg.com/originals/a7/b0/15/a7b015d343ad801ad6da8c242dc6ae06.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+    body{
+        font-family: arial;
+    }
+    .header{
+        background: rgb(0, 0, 0);
+        position: sticky;
+        top: 0;
+    }
+    .header img{
+        width: 60px;
+        margin: 20px;
+
+    }
+    h1{
+        margin-top: 70px;
+        text-align: center;
+    }
+    .artical img{
+        margin-top: 50px;
+        margin-left: 270px;
+        
+    }
+    @media(max-width:700px){
+        .artical img{
+            width: 50%;
+            margin-left: 25%;
+        }
+    }
+    p{
+        padding: 100px 200px 200px;
+        text-align: justify;
+        font-weight: 200;
+        color: rgb(63, 59, 59);
+    }
+    .back {
+        text-align: right;
+        position: sticky;
+        top:39px; 
+        margin-right: 50px;
+        margin-top: -60px;
+    }
+    .back a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+</style>
+<body onload="myFunction()">
+    <div id="loading"></div>
+    <div class="header">
+        <img src="img/mis-dra.png">
+        
+    </div>
+    <div class="back">
+        <a href="index2.html" >Back</a>
+    </div>
+    <div class="artical">
+        <h1>Changing The Way We See Machine Learning In The Field Of Telecommunication</h1>
+        <img src="https://www.tristatetechnology.com/tristate-website/blog/wp-content/uploads/2020/04/IoT-and-Machine-Learning.png">
+        <p>By Edwin T.<br><br>
+
+            In the age of information, the internet is becoming a vast source of information that is waiting to be delivered and collected. Without programming tools, the world is losing valuable information and opportunities. With machine learning, people and companies will be able to utilize some of that information and attempt to apply it to something useful that people and industries alike can benefit from. Putting machine learning in conjunction with telecommunication can bring about great changes that will revolutionize the way we see the internet.
+            <br>
+            Machine learning is a machine will act without being told what to do by a programmer. To do this the machine must be trained with data sets that will teach the machine to spot patterns. These patterns will allow the machine to act accordingly when new data sets come that correspond with previously known patterns. There are two methods of machine learning, supervised and unsupervised. With supervised machine learning, the machine is being handfed information by the programmer. The programmer will create data sets that give the program the question and the answer to each problem and then the computer will find the pattern and match them with new data sets that come in. In unsupervised learning, the machine is left alone with unmatched data sets and left only to use the algorithm given to it to find and learn the patterns itself.
+            <br>
+            Google is one of those companies that are using machine learning in many aspects of its business. In one instance, they created a program that would help optimize the exchange of data being sent over the web. In this instance a prototype program named RAISR has been able to optimize image data being sent over its social media website called Google+. RAISR which is currently used on a small set of android devices will be able to grab an image a quarter size of the original image and tweak that image so it would seem the image is of higher quality. Through machine learning RAISR can accomplish this by looking at various images pixels and learning the patterns of how the images pixels are arranged between its high-resolution version and low-resolution version. RAISR would then add or tweak the pixels of the low-resolution version of the image and try to match it with the high-resolution version so that quality of service will not be hindered. The implications of this are huge where in fact “the company says doing so has reduced users’ total bandwidth by about a third” (Vincent, 2017). If RAISR does its job well and Google decides to allow companies to use RAISR then internet service providers will see a huge decrease in bandwidth consumption and in turn will free up more bandwidth for consumers to use.
+            <br>
+            Moving away from Google we start to look at Skype for its optimization of telecommunication software through web services. Skype is one of the well-known companies that provides a solid Voice over IP (VoIP) service and is looking to advance its services. The VoIP service provider has a feature called Skype Translator which is aiming at translating different languages from voice to text then back to voice. This is made possible by machine learning speech patterns in various tones and voices to find the pattern of a word to its text correspondent. This implication of this service in the business world is huge considering a large portion of trade is done internationally. This allows business conferences to be done without the need of a translator.
+            <br>
+            The future of machine learning in technology is bright but it still faces challenges and limitations. With RAISR the challenges it faces are the fact that technology has only gone so far and RAISR is in its infancy so it has a long way before it is applicable to other devices and services. As for the limitations of RAISR, image quality can only be increased so much before the image will become a high-resolution image that looks nothing like the original image. With Skype Translator, the challenges it faces are the voice patterns that humans have. Every individual person has a unique voice and so comes the problems of finding the pattern in their voice. The limitation of Skype Translator on the other hand are almost nonexistent. Unless the person using Skype Translator is speaking in such a way that nobody in the world can understand then it will be able to translate voice given enough data sets.</p>
+    </div>
+    <script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+</body>
+</html>

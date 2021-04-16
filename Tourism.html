@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Mining in Tourism</title>
+    <link rel="icon" href="img/dra-tech.png">
+   
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: arial;
+    }
+    .header{
+        background: rgb(0, 0, 0);
+        position: sticky;
+        top: 0;
+    }
+    .header img{
+        width: 60px;
+        margin: 20px;
+
+    }
+    #loading{
+    position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgb(0, 0, 0)
+	url('https://i.pinimg.com/originals/a7/b0/15/a7b015d343ad801ad6da8c242dc6ae06.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+    h1{
+        margin-top: 70px;
+        text-align: center;
+    }
+    .artical img{
+        margin-top: 50px;
+        margin-left: 270px;
+        
+    }
+    @media(max-width:700px){
+        .artical img{
+            width: 50%;
+            margin-left: 25%;
+        }
+    }
+    p{
+        padding: 100px 200px 200px;
+        text-align: justify;
+        font-weight: 200;
+        color: rgb(63, 59, 59);
+    }
+    .back {
+        text-align: right;
+        position: sticky;
+        top:39px; 
+        margin-right: 50px;
+        margin-top: -60px;
+    }
+    .back a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+</style>
+<body onload="myFunction()">
+    <div id="loading"></div>
+    <div class="header">
+        <img src="img/mis-dra.png">
+        
+    </div>
+    <div class="back">
+        <a href="index2.html" >Back</a>
+    </div>
+    <div class="artical">
+        <h1>Data Mining in Tourism</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7p8wuBi_SZdxJpZsqu-9H6GVw9c41Ah-7wDbx_v0Rul35O_HHmmN7e2C-s00qUBZOKSQ&usqp=CAU">
+        <p>By Billy S.<br><br>
+
+            Nowadays, travel and tourism have grown into a large industry throughout the world. As technology has played a major role in our day to day life, it tends to affects the behavior of travelers since it was easy enough to find information on the spot. Lately, travelers have changed how they travel where they prefer to roam freely and use technology as a guide rather than strict their schedule to a plan (1). As a result, tourism industry requires quick and up to date information from many locations around the world. Therefore, data mining has become a necessity to obtain accurate data and information; from popular travel destination, places of interests and popular cultural attractions. However, globalization has changed the behavior of traveler where it made an impact on their cultural criteria, social criteria, personal criteria, and psychological criteria(1).
+            <br><br>
+            The benefits of data mining in Tourism
+            As mentioned above, many travelers of the current generations preferred exploring instead of planning. Therefore, the information obtain from data mining can become an advantage for the tourism industry. With data mining, travel companies could collect information of the traveler’s origin, budget, and what would they like to buy and used it to maximize profit (1). By knowing the customers interest, travel companies can create a better travelling guide methods as well as omitting the destination least wanted by the consumer. Also, it could help traveler with providing the best travel route so that they could visit more location efficiently.
+            <br><br>
+            Tools and Method of Data Mining in Tourism
+            There are many methods used to mine data on tourism. The simplest ones are questionnaires which will be given to the traveler by form or digitally (1). Other travel companies use their own website and application for data mining such as AirBnB where they collect the information directly from the customer account. Another way to mine data on tourism is by using the data from GPS devices (2). This method can also provide an up to date data on the latest trends among tourist on which destination that were visited the most (3). In addition, social media such as Path and Instagram could be used to mine data on travel destination based on the different location that their users provided (3). Usually, social media already has an automated feature where it identifies the location of the picture as well as identifies sentences through the method of NLP (3).
+            <br><br>
+            Challenges and Limitation on Data Mining in Tourism
+            Other than collecting data, companies need to validate the data they obtain from data mining. Some data may not be accurate without filters since there may be some unqualified data. More precise specification such as key words and validation may be required to be able to acquire more reliable data(2). The challenges for data mining on tourism is that some data may be categorized wrongly where the offers made for the specific category will not be effective, especially if it involves a huge amount of data. As mentioned above, collecting data through social media might not be the most accurate since the method may collect unnecessary data.</p>
+    </div>
+    <script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+</body>
+</html>

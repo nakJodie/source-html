@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Mining in the Military</title>
+    <link rel="icon" href="img/dra-tech.png">
+   
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: arial;
+    }
+    #loading{
+    position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgb(0, 0, 0)
+	url('https://i.pinimg.com/originals/a7/b0/15/a7b015d343ad801ad6da8c242dc6ae06.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+    .header{
+        background: rgb(0, 0, 0);
+        position: sticky;
+        top: 0;
+    }
+    .header img{
+        width: 60px;
+        margin: 20px;
+
+    }
+    h1{
+        margin-top: 70px;
+        text-align: center;
+    }
+    .artical img{
+        margin-top: 50px;
+        margin-left: 270px;
+        
+    }
+    @media(max-width:700px){
+        .artical img{
+            width: 50%;
+            margin-left: 25%;
+        }
+    }
+    p{
+        padding: 100px 200px 200px;
+        text-align: justify;
+        font-weight: 200;
+        color: rgb(63, 59, 59);
+    }
+    .back {
+        text-align: right;
+        position: sticky;
+        top:39px; 
+        margin-right: 50px;
+        margin-top: -60px;
+    }
+    .back a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+</style>
+<body onload="myFunction()">
+    <div id="loading"></div>
+    <div class="header">
+        <img src="img/mis-dra.png">
+        
+    </div>
+    <div class="back">
+        <a href="index2.html" >Back</a>
+    </div>
+    <div class="artical">
+        <h1>Data Mining in the Military</h1>
+        <img src="https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F1ee5ff4e-dd31-11e8-9f04-38d397e6661c?source=next-opengraph&fit=scale-down&width=900">
+        <p>By: Lyvon T.<br><br>
+
+            We put a lot of trust in the United States military to protect us from harm. To do that, they must have access to the best technology, such as data mining. Our military has always been collecting and storing data but in recent decades, the amount of data as increased to an extent that data mining software is needed to aide them in their work. Today, they use it in tactical systems, surveillance, and medical databases just to name a few. The ability to collect, analyze, and determine new information from that data is extremely useful to the military. Having access to useful information makes them more efficient in what they do.
+            <br><br>
+            Due to the nature of their work, the software they use must be perfect for the task needed, therefore they do not use public data mining tools like most organizations that use data mining. Almost all the software and technology is created by the Defense Advanced Research Projects Agency, also known as DARPA. Each individual data mining task, such as a missile deflection system, has a custom software created to aid that specific task. A good handful of new data mining software are listed on the DARPA website along with a brief description of it and the person who developed it. The website even has a catalog of the software they can share to the public but that part of the website is insecure and currently inaccessible.
+            <br><br>
+            One data mining software developed by DARPA is a Chaff Electronic Countermeasure System. It is used to detect missile near the ship, calculate the missile’s trajectory towards the ship and release chaff rockets to deflect the incoming missile to another calculated trajectory away from the ship. This was built to analyze and act faster than a captain of the ship. The software also has different modes to deflect the incoming missiles including seduction, distraction, and confusion that will be used automatically depending on the ship’s behavior, rockets available, and other factors. This is a very important on Navy ships.
+            <br><br>
+            Another data mining software created by DARPA is not used in combat, but medical field. The Joint Medical Asset Repository (JMAR) is a database used by Air Force, Army, and Navy to access the entire medical inventory owned by those sectors of the military but has technical difficulties in accessing the data so a data mining interface has been implemented. It is to improve the JMAR database with accessing hundreds of system inventory databases owned by the military, displaying the data on the supplies in an easy to read interface, and assisting in the transfer of large amounts of medical supplies to locations in need.
+            <br><br>
+            Data mining in the military has the same challenges that regular data mining has. There is poor quality/missing data, the amount of data, and the variety of data hey must worry about when managing their software. Also, due to being a part of the government, they must also be secretive about their work. They cannot release everything that they gather and create since it can easily land in the wrong hands. If an enemy was able to get their hands on certain data mining software for a surveillance system, they would be able to understand how it worked and find flaws in the software to break in to a military facility. DARPA only allows certain software to be public in their catalog for the protection of this country.
+            <br><br>
+            Data mining is extremely important and necessary for the military to operate they do today. All the useful data it produces to help in the efficiency of it as a whole is truly amazing. New data mining software is still developed constantly by DARPA to improve the way the military operates so it is not limited to the things I’ve described. On the battlefield and in he hospitals, data mining has surely changed the military for the better.
+             </p>
+    </div>
+    <script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+</body>
+</html>
